@@ -7,7 +7,8 @@
 - this keyword
 
 
-### Classes and Objects
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **Class :** 
 - represents a group of objects with similar behaviours
@@ -19,6 +20,16 @@
 
 ![image](https://user-images.githubusercontent.com/23376002/170814711-25def2a7-2545-49dd-b880-adeddf1865f6.png)
 
+
+Types of Methods :
+
+a) Predefined : that is already defined in the Java class libraries or build-in methods. e.g length(), equals() etc. 
+
+b) User-defined : written by user
+	- Static method : we can call it without creating an object e.g main class
+	- Instance method : non-static,  it is necessary to create an object of its class. 
+	
+c) Abstract method : that does not have a body. 
 
 
 **Student Class :**
