@@ -14,14 +14,15 @@
 - represents a group of objects with similar behaviours
 - class is just a blueprint which gives us a basic defition of something we want to model. (sancha)
 
+
 **Object :** An entity that has state (represents the data) and behavior(represents the functionality) is known as an object. 
+
 
 **Method :** A method is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation.
 
 ![image](https://user-images.githubusercontent.com/23376002/170814711-25def2a7-2545-49dd-b880-adeddf1865f6.png)
 
-
-Types of Methods :
+**Types of Methods :**
 
 a) Predefined : that is already defined in the Java class libraries or build-in methods. e.g length(), equals() etc. 
 
@@ -30,6 +31,17 @@ b) User-defined : written by user
 	- Instance method : non-static,  it is necessary to create an object of its class. 
 	
 c) Abstract method : that does not have a body. 
+
+
+**Constructor :**
+- special type of method which is used to initialize the object.
+- It is called when an instance of the class is created.
+- At the time of calling constructor, memory for the object is allocated in the memory.
+
+![image](https://user-images.githubusercontent.com/23376002/170815355-b8b6f420-1c51-4e14-8ad1-a58692443607.png)
+
+![image](https://user-images.githubusercontent.com/23376002/170815388-67c52b0f-9994-49a4-a38d-9253ae4ed60b.png)
+
 
 
 **Student Class :**
