@@ -179,5 +179,76 @@ public class main {
 **static keyword :** used for memory management mainly.
 
 
+```java
+class Student1 {
+	public String name;
+	public int roll_no;
+	public static String school="KV";
+	
+	static void change_school() {
+		school="KV2";
+	}
+	public void display() {
+		System.out.println(name + " " + roll_no + " " + school);
+	}
+}
+
+class Counter {
+	int count_without_static=0; // will get memory each time when the instance is created
+	static int count_with_static=0; // will get memory only once and retain its value  
+	
+	public void increase_without_static() {
+		System.out.println(count_without_static++);
+	}
+	public void increase_with_static() {
+		System.out.println(count_with_static++);
+	}
+	
+}
+
+public class Static_Test {
+
+	public static void main(String[] args) {
+		
+		Student1 s1 = new Student1();
+		s1.name="Alka";
+		s1.roll_no=1;
+		
+		s1.display(); // Alka 1 KV
+		
+		Student1 s2 = new Student1();
+		s2.name="Kajal";
+		s2.roll_no=2;
+		
+		s2.display(); // Kajal 2 KV
+		
+		Student1.change_school();
+		Student1 s3 = s2;
+		s3.display(); // Kajal 2 KV2
+		
+		Counter c1 = new Counter();
+		Counter c2 = new Counter();
+		Counter c3 = new Counter();
+		
+		c1.increase_without_static(); //0 
+		c2.increase_without_static(); //0
+		c3.increase_without_static(); //0
+		
+		c1.increase_with_static(); //0
+		c2.increase_with_static(); //1
+		c3.increase_with_static(); //2
+
+	}
+
+}
+
+
+```
+
+
+
+
+
+
 
 
