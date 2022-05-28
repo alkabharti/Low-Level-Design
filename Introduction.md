@@ -246,6 +246,10 @@ public class Static_Test {
 ```
 
 
+**this keyword :** a reference variable that refers to the current object.
+- to refer current class instance variable. 
+- distinguish between local variable and instance variable.
+
 
 
 
