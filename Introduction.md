@@ -15,6 +15,11 @@
 
 **Object :** An entity that has state (represents the data) and behavior(represents the functionality) is known as an object. 
 
+**Method :** A method is a block of code or collection of statements or a set of code grouped together to perform a certain task or operation.
+
+![image](https://user-images.githubusercontent.com/23376002/170814711-25def2a7-2545-49dd-b880-adeddf1865f6.png)
+
+
 
 **Student Class :**
 
