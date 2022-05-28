@@ -2,7 +2,7 @@
 
 - Classes and objects
 - Method
-- Construction
+- Constructor
 - static keyword
 - this keyword
 
@@ -65,3 +65,49 @@ public class Student {
 
 
 Main Class:
+
+
+```java
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		/* 
+		 * Instantiation : It means building an object from its class blueprint.
+		 *                 For e.g. new Student() - creates an instance of Student
+		 *                 
+		 * new keyword : used to allocate memory at runtime.                
+		 */
+		
+		/*
+		 * Different ways to create an object
+		 * 		1. Anonymous object - nameless
+		 * 		2. Reference variable
+		 */
+		
+		// 1. Anonymous object
+		new Student();
+		System.out.println(new Student().getName()); // null
+		System.out.println(new Student().getAge()); // 0
+		
+		// 2. Reference variable
+		Student s1 = new Student(); // Creating an object of class Student
+		// The '=' operator assigns the instance of student to the variablle s1. 
+		
+		System.out.println(s1.getName()); // null
+		System.out.println(s1.getAge()); // 0
+		
+		Student s2 = new Student("Alka", 24);
+		
+		System.out.println(s2.getName()); // Alka
+		System.out.println(s2.getAge()); // 24
+	}
+
+}
+
+```
+
+
+
+
