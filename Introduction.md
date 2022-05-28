@@ -55,10 +55,19 @@ public class Student {
 	private String name;
 	private int age;
 	
-	//Constructor
+	/*
+	 * Constructor : 
+	 * 	- same name as its class name
+	 *  - no return type
+	 *  - cannot be abstract, static, final
+	 */
+	
+	// Default constructor
 	public Student() {
 		super();
 	}
+	
+	// Parameterized constructor
 	public Student(String name) {
 		super();
 		this.name = name;
@@ -73,7 +82,18 @@ public class Student {
 		this.age = age;
 	}
 	
+	public Student(Student s) {
+		super();
+		this.name = s.name;
+		this.age = s.age;
+	}
+	
 	// Member functions
+	/*
+	 * Instance methods 
+	 * 	a) Accessor or getters : reads value of variable
+	 *  b) Mutator or setters : modify the value of variable
+	 */
 	public String getName() {
 		return name;
 	}
@@ -88,6 +108,16 @@ public class Student {
 	}
 	
 }
+
+abstract class test {
+	
+	/*
+	 * Abstract method : that does not have a body
+	 * It can only be present in abstract class
+	 */
+	abstract void method();
+}
+
 
 ```
 
@@ -130,6 +160,15 @@ public class main {
 		
 		System.out.println(s2.getName()); // Alka
 		System.out.println(s2.getAge()); // 24
+		
+		/*
+		 * Copy constructor : copy the values from one object to another like
+		 */
+		
+		Student s3 = new Student(s2);
+		System.out.println(s3.getName()); // Alka
+		System.out.println(s3.getAge()); // 24
+		
 	}
 
 }
