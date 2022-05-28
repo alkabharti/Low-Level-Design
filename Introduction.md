@@ -176,5 +176,8 @@ public class main {
 ```
 
 
+**static keyword :** used for memory management mainly.
+
+
 
 
