@@ -9,7 +9,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Inheritance :
+### Inheritance :
 
 a) Single Inheritance
 
@@ -111,7 +111,7 @@ public class Single_Inheritance {
 ```
 
 
-Plymorphism 
+### Polymorphism 
 
 
 ```java
