@@ -38,4 +38,38 @@ public class Single_Inheritance {
 
 ```
 
+b) Multilevel Inheritance
+
+```java
+class Home {
+	void home() {
+		System.out.println("Home");
+	}
+}
+
+class Room extends Home {
+	void room() {
+		System.out.println("Room");
+	}
+}
+
+class One_bhk extends Room {
+	void display() {
+		System.out.println("1 BHK");
+	}
+}
+
+public class Multilevel_Inheritance {
+	public static void main(String[] args) {
+		One_bhk one = new One_bhk();
+		one.display(); // 1 BHK
+		one.room(); // Room
+		one.home(); // Home
+	}
+
+}
+```
+
+
+
 
