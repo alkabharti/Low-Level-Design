@@ -111,5 +111,50 @@ public class Single_Inheritance {
 ```
 
 
+Plymorphism 
+
+
+```java
+/*
+ * Method Overloading: changing no. of arguments
+ */
+class Add {
+	public int add(int a, int b) {
+		return a+b;
+	}
+	public int add(int a, int b, int c) {
+		return a+b+c;
+	}
+}
+
+/*
+ * Method Overloading: changing data type of arguments
+ */
+class Subtract {
+	public int subtract(int a, int b) {
+		return a-b;
+	}
+	public double subtract(double a, double b) {
+		return a-b;
+	}
+}
+
+public class Method_Overloading {
+
+	public static void main(String[] args) {
+		Add a1 = new Add();
+		System.out.println(a1.add(2, 3)); // 5
+		System.out.println(a1.add(3, 4, 7)); // 14
+		
+		Subtract s1 = new Subtract();
+		System.out.println(s1.subtract(8, 3)); // 5
+		System.out.println(s1.subtract(9.4, 5.0)); // 4.4
+	}
+
+}
+
+```
+
+
 
 
