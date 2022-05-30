@@ -72,6 +72,9 @@ public class Multilevel_Inheritance {
 ```
 
 
+c) Hierarchical Inheritance
+
+
 ```java
 class Animal {
 	void sound() {
