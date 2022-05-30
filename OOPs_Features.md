@@ -72,6 +72,40 @@ public class Multilevel_Inheritance {
 ```
 
 
+```java
+class Animal {
+	void sound() {
+		System.out.println("Animal sound");
+	}
+}
+
+class Dog extends Animal {
+	void sound1() {
+		System.out.println("Dog sound");
+	}
+}
+
+class Cat extends Animal {
+	void sound2() {
+		System.out.println("Cat sound");
+	}
+}
+
+public class Single_Inheritance {
+
+	public static void main(String[] args) {
+		Dog dog = new Dog();
+		dog.sound1(); // Dog sound
+		dog.sound(); // Animal sound
+		
+		Cat cat = new Cat();
+		cat.sound2(); // Cat sound
+		cat.sound(); // Animal sound
+	}
+
+}
+
+```
 
 
 
