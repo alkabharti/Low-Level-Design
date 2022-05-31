@@ -250,11 +250,61 @@ public class Final_keyword {
 ```
 
 
-2) Java Final Method
+2) Java Final Method : If you make any method as final, you cannot override it.
+
+```java
+class Money {
+	int rupees = 100;
+
+	final void change() {
+		rupees = 200;
+		System.out.print(rupees);
+	}
+}
+
+class Test extends Money {
+	void change() {
+		
+	}
+}
+public class Final_keyword {
+	public static void main(String[] args) {
+		Money m = new Money();
+		m.change();
+	}
+}
+
+// Compilation Error
+```
+
+3) Java Final class : If you make any class as final, you cannot extend it.
 
 
+```java
+final class Money {
+	int rupees = 100;
 
-3) Java Final class
+	final void change() {
+		rupees = 200;
+		System.out.print(rupees);
+	}
+}
+
+class Test extends Money {
+	void change() {
+		
+	}
+}
+public class Final_keyword {
+	public static void main(String[] args) {
+		Money m = new Money();
+		m.change();
+	}
+}
+
+// Compilation Error
+```
+
 
 
 
