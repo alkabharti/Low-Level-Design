@@ -225,5 +225,37 @@ public class Super_keyword {
 
 ```
 
+Final Keyword : used to restrict the user.
+
+1) Java Final variable : If you make any variable as final, you cannot change the value of final variable(It will be constant).
+
+```java
+class Money {
+	final int rupees = 100;
+
+	void change() {
+		rupees = 200;
+	}
+}
+
+public class Final_keyword {
+	public static void main(String[] args) {
+		Money m = new Money();
+		m.change();
+	}
+}
+
+// Compilation Error
+
+```
+
+
+2) Java Final Method
+
+
+
+3) Java Final class
+
+
 
 
