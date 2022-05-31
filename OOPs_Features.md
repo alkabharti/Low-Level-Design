@@ -177,6 +177,53 @@ Super Keyword :
 
 
 
+```java
+
+class Game {
+	int players = 4;
+
+	Game() {
+		System.out.println("Game Constructor");
+	}
+
+	void display() {
+		System.out.println("Playing Game");
+	}
+}
+
+class Ludo extends Game {
+	Ludo() {
+		super(); // invoke parent class constructor
+		System.out.println("Ludo Constructor");
+	}
+
+	void display() {
+		System.out.println("Playing Ludo");
+		System.out.println(super.players); // refer immediate parent class instance variable
+		super.display(); // invoke parent class method
+	}
+
+}
+
+public class Super_keyword {
+
+	public static void main(String[] args) {
+		Ludo l1 = new Ludo();
+		l1.display();
+		/*
+		 * Output : Game Constructor 
+		 * 			Ludo Constructor 
+		 * 			Playing Ludo 
+		 * 			4 
+		 * 			Playing Game
+		 * 
+		 */
+
+	}
+
+}
+
+```
 
 
 
