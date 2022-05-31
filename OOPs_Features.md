@@ -213,9 +213,9 @@ public class Super_keyword {
 		/*
 		 * Output : Game Constructor 
 		 * 	    Ludo Constructor 
- * 			    Playing Ludo 
- * 			    4 
- * 			    Playing Game
+                 * 	    Playing Ludo 
+		 *	    4 
+		 *          Playing Game
 		 * 
 		 */
 
