@@ -306,6 +306,30 @@ public class Final_keyword {
 ```
 
 
+Upcasting : 
+If the reference variable of Parent class refers to the object of Child class. 
 
+![image](https://user-images.githubusercontent.com/23376002/171108884-b3363d98-cab3-4faf-a054-87604972054a.png)
+
+
+```java
+class Bike {
+	void run() {
+		System.out.println("running");
+	}
+}
+
+class Splendor extends Bike {
+	void run() {
+		System.out.println("running safely with 60km");
+	}
+
+	public static void main(String args[]) {
+		Bike b = new Splendor();// upcasting
+		b.run();
+	}
+}
+
+```
 
 
