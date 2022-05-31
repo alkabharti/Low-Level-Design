@@ -212,10 +212,10 @@ public class Super_keyword {
 		l1.display();
 		/*
 		 * Output : Game Constructor 
-		 * 			Ludo Constructor 
-		 * 			Playing Ludo 
-		 * 			4 
-		 * 			Playing Game
+		 * 	    Ludo Constructor 
+ * 			    Playing Ludo 
+ * 			    4 
+ * 			    Playing Game
 		 * 
 		 */
 
