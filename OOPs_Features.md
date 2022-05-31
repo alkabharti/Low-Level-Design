@@ -113,6 +113,7 @@ public class Single_Inheritance {
 
 ### Polymorphism 
 
+Method Overloading : Compile time Polymorphism
 
 ```java
 /*
@@ -161,8 +162,13 @@ Type Promotion :
 ![image](https://user-images.githubusercontent.com/23376002/171024472-c65585c2-b0a1-4fce-a927-bc97470d8e56.png)
 
 
-Method Overriding : If subclass (child class) has the same method as declared in the parent class.
-Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. 
+Method Overriding : (Run Time Polymorphism)
+- If subclass (child class) has the same method as declared in the parent class.
+- Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. 
+
+![image](https://user-images.githubusercontent.com/23376002/171093837-49f7bd40-3652-434c-aa94-a80f3ba95095.png)
+
+
 
 
 
