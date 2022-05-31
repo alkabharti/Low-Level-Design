@@ -351,3 +351,35 @@ class Honda3 extends Bike {
 
 ```
 
+
+Static Binding : 
+- When type of the object is determined at compiled time(by the compiler)
+- If there is any private, final or static method in a class, there is static binding.
+
+
+```java
+final class Money {
+	private int rupees = 100;
+
+	final void change() {
+		rupees = 200;
+		System.out.println(rupees);
+	}
+}
+
+public class Final_keyword {
+	public static void main(String[] args) {
+		Money m = new Money();
+		m.change();
+	}
+}
+
+```
+
+
+
+
+
+
+
+
