@@ -402,6 +402,7 @@ class Dog extends Animal {
 
 Abstraction :
 
+Abstract class
 
 ```java
 abstract class Shape {
@@ -445,10 +446,20 @@ public class Abstract_class {
 		Bike1 obj = new Honda();
 		obj.run();
 		obj.changeGear();
+		
+		/*
+		 * Output:
+
+		  	drawing circle
+			bike is created
+			running safely..
+			gear changed
+		 */
 	}
 }
 
 ```
+
 
 
 
