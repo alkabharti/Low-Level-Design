@@ -12,6 +12,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
 ### Single Responsibility Principle :
 The single responsibility principle states that every Java class must perform a single functionality. Implementation of multiple functionalities in a single class mashup the code and if any modification is required may affect the whole class.
 
@@ -193,5 +194,15 @@ public class WhatsAppNotificationService implements Notificationservice {
     }
 }
 ```
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Liskov Substitution Principle :
+It applies to inheritance in such a way that the derived classes must be completely substitutable for their base classes. In other words, if class A is a subtype of class B, then we should be able to replace B with A without interrupting the behavior of the program.
+
+
+
 
 
