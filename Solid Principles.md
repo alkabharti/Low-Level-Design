@@ -134,6 +134,8 @@ public class PrinterService {
 The open-closed principle states that according to new requirements the module should be open for extension but closed for modification.
 
 
+**Notificationservice Interface**
+
 ```java
 public interface Notificationservice {
 
@@ -143,6 +145,8 @@ public interface Notificationservice {
 
 }
 ```
+
+**EmailNotificationService Class**
 
 ```java
 public class EmailNotificationService implements Notificationservice {
@@ -156,6 +160,8 @@ public class EmailNotificationService implements Notificationservice {
 }
 
 ```
+
+**MobileNotificationService Class**
 
 ```java
 public class MobileNotificationService implements Notificationservice {
@@ -171,6 +177,7 @@ public class MobileNotificationService implements Notificationservice {
 }
 ```
 
+**WhatsAppNotificationService Class**
 
 ```java
 public class WhatsAppNotificationService implements Notificationservice {
