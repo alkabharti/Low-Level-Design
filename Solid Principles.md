@@ -71,6 +71,30 @@ public class LoanService {
 }
 ```
 
+```java
+public class NotificationService {
+    public void sendOTP(String medium) {
+        if (medium.equals("email")) {
+            //write email related logic
+            //use JavaMailSenderAPI
+        }
+        if(medium.equals("mobile")){
+            //write logic using twillio API
+        }
+    }
+}
+```
+
+```java
+public class PrinterService {
+
+    public void printPassbook() {
+        //update transaction info in passbook
+    }
+}
+```
+
+
 
 
 
