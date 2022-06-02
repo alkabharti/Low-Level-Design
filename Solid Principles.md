@@ -14,6 +14,8 @@ Single Responsibility Principle :
 The single responsibility principle states that every Java class must perform a single functionality. Implementation of multiple functionalities in a single class mashup the code and if any modification is required may affect the whole class.
 
 
+BankService Class : It contains all the functionalities
+
 
 ```java
 public class BankService {
@@ -58,6 +60,9 @@ public class BankService {
 }
 ```
 
+After implementing SRP we have created multiple classes to handle different functionalities.
+
+**BankService.java Class**
 
 ```java
 public class BankService {
@@ -74,6 +79,9 @@ public class BankService {
     
 }
 ```
+
+**LoanService.java Class**
+
 
 ```java
 public class LoanService {
@@ -92,6 +100,8 @@ public class LoanService {
 }
 ```
 
+**NotificationService.java Class**
+
 ```java
 public class NotificationService {
     public void sendOTP(String medium) {
@@ -105,6 +115,8 @@ public class NotificationService {
     }
 }
 ```
+
+**PrinterService.java Class**
 
 ```java
 public class PrinterService {
