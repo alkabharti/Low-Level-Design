@@ -148,7 +148,6 @@ public interface Notificationservice {
 public class EmailNotificationService implements Notificationservice {
     public void sendOTP(String medium) {
         //write logic to integrate with email api
-
     }
 
     public void sendTransactionReport(String medium) {
@@ -158,5 +157,32 @@ public class EmailNotificationService implements Notificationservice {
 
 ```
 
+```java
+public class MobileNotificationService implements Notificationservice {
+    public void sendOTP(String medium) {
+        //write the logic to send otp to mobile
+        //twillo api
+    }
+
+    public void sendTransactionReport(String medium) {
+        //write the logic to send otp to mobile
+        //twillo api
+    }
+}
+```
+
+
+```java
+public class WhatsAppNotificationService implements Notificationservice {
+
+    public void sendOTP(String medium) {
+        //logic to integrate whatsapp api
+    }
+
+    public void sendTransactionReport(String medium) {
+        //logic to integrate whatsapp api
+    }
+}
+```
 
 
