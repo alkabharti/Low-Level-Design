@@ -15,4 +15,62 @@ The single responsibility principle states that every Java class must perform a 
 
 
 
+```java
+public class BankService {
+
+    public long deposit(long amount, String accountNo) {
+        //deposit amount
+        return 0;
+    }
+
+    public long withDraw(long amount, String accountNo) {
+        //withdraw amount
+        return 0;
+    }
+
+
+
+
+
+
+
+}
+```
+
+
+```java
+public class BankService {
+
+    public long deposit(long amount, String accountNo) {
+        //deposit amount
+        return 0;
+    }
+
+    public long withDraw(long amount, String accountNo) {
+        //withdraw amount
+        return 0;
+    }
+    
+}
+```
+
+```java
+public class LoanService {
+
+    public void getLoanInterestInfo(String loanType) {
+        if (loanType.equals("homeLoan")) {
+            //do some job
+        }
+        if (loanType.equals("personalLoan")) {
+            //do some job
+        }
+        if (loanType.equals("car")) {
+            //do some job
+        }
+    }
+}
+```
+
+
+
 
