@@ -9,6 +9,8 @@
 
 ![image](https://user-images.githubusercontent.com/23376002/171677669-a6979ca6-6a9c-4932-b1df-2fe0cd62e858.png)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### Single Responsibility Principle :
 The single responsibility principle states that every Java class must perform a single functionality. Implementation of multiple functionalities in a single class mashup the code and if any modification is required may affect the whole class.
@@ -124,6 +126,21 @@ public class PrinterService {
     public void printPassbook() {
         //update transaction info in passbook
     }
+}
+```
+
+
+### Open-Closed Principle :
+The open-closed principle states that according to new requirements the module should be open for extension but closed for modification.
+
+
+```java
+public interface Notificationservice {
+
+    public void sendOTP(String medium);
+
+    public void sendTransactionReport(String medium);
+
 }
 ```
 
