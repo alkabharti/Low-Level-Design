@@ -129,6 +129,8 @@ public class PrinterService {
 }
 ```
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ### Open-Closed Principle :
 The open-closed principle states that according to new requirements the module should be open for extension but closed for modification.
