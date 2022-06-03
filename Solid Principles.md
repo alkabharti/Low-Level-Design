@@ -285,4 +285,13 @@ public class Instagram implements SocialMedia,PostMediaManager{
 The principle states that the larger interfaces split into smaller ones. Because the implementation classes use only the methods that are required. We should not force the client to use the methods that they do not want to use.
 
 
+```java
+public interface UPIPayments {
 
+    public void payMoney();
+
+    public void getScratchCard();
+
+
+}
+```
