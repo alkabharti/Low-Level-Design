@@ -244,5 +244,40 @@ public interface PostMediaManager {
 }
 ```
 
+```java
+public class WhatsApp implements SocialMedia,SocialVideoCallManager {
+    public void chatWithFriend() {
+
+    }
+
+    public void sendPhotosAndVideos() {
+
+    }
+
+    public void groupVideoCall(String... users) {
+
+    }
+}
+```
+
+
+```java
+public class Instagram implements SocialMedia,PostMediaManager{
+
+    public void publishPost(Object post) {
+
+    }
+
+    public void chatWithFriend() {
+
+    }
+
+    public void sendPhotosAndVideos() {
+
+    }
+}
+```
+
+
 
 
