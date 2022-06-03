@@ -220,6 +220,29 @@ public abstract class SocialMedia {
 }
 ```
 
+```java
+public interface SocialMedia {
+
+    public   void chatWithFriend();
+
+    public   void sendPhotosAndVideos();
+
+}
+
+```
+
+```java
+public interface SocialVideoCallManager {
+    public void groupVideoCall(String... users);
+}
+```
+
+```java
+public interface PostMediaManager {
+
+    public  void publishPost(Object post);
+}
+```
 
 
 
