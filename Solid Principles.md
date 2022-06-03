@@ -295,3 +295,60 @@ public interface UPIPayments {
 
 }
 ```
+
+```java
+public interface CashBackManager {
+
+    public void getCashBackAsCreditBalance();
+}
+```
+
+
+```java
+public class Paytm implements UPIPayments {
+
+    public void payMoney() {
+
+    }
+
+    public void getScratchCard() {
+
+    }
+
+}
+```
+
+
+```java
+public class GooglePay implements UPIPayments,CashBackManager {
+
+    public void payMoney() {
+
+    }
+
+    public void getScratchCard() {
+
+    }
+
+    public void getCashBackAsCreditBalance() {
+      //this features is there in gpay
+    }
+}
+```
+
+
+```java 
+public class Phonepe implements UPIPayments {
+    public void payMoney() {
+
+    }
+
+    public void getScratchCard() {
+
+    }
+
+
+}
+```
+
+
