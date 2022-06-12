@@ -12,13 +12,13 @@ In core java, there are mainly three types of design patterns, which are further
 - Builder Pattern.
 
 ### 2. Structural Design Pattern
-Adapter Pattern
-Bridge Pattern
-Composite Pattern
-Decorator Pattern
-Facade Pattern
-Flyweight Pattern
-Proxy Pattern
+- Adapter Pattern
+- Bridge Pattern
+- Composite Pattern
+- Decorator Pattern
+- Facade Pattern
+- Flyweight Pattern
+- Proxy Pattern
 
 ### 3. Behavioral Design Pattern
 Chain Of Responsibility Pattern
