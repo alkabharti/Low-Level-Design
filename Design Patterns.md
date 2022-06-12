@@ -21,17 +21,17 @@ In core java, there are mainly three types of design patterns, which are further
 - Proxy Pattern
 
 ### 3. Behavioral Design Pattern
-Chain Of Responsibility Pattern
-Command Pattern
-Interpreter Pattern
-Iterator Pattern
-Mediator Pattern
-Memento Pattern
-Observer Pattern
-State Pattern
-Strategy Pattern
-Template Pattern
-Visitor Pattern
+- Chain Of Responsibility Pattern
+- Command Pattern
+- Interpreter Pattern
+- Iterator Pattern
+- Mediator Pattern
+- Memento Pattern
+- Observer Pattern
+- State Pattern
+- Strategy Pattern
+- Template Pattern
+- Visitor Pattern
 
 
 
