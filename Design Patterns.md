@@ -15,6 +15,10 @@ Creational design patterns are concerned with the way of creating objects. These
 - Builder Pattern.
 
 ### 2. Structural Design Pattern
+Structural design patterns are concerned with how classes and objects can be composed, to form larger structures.
+The structural design patterns simplifies the structure by identifying the relationships.
+
+
 - Adapter Pattern
 - Bridge Pattern
 - Composite Pattern
