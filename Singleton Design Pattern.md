@@ -14,8 +14,8 @@ Singleton Pattern says that just"define a class that has only one instance and p
 - Instance type - private static
 
 #### Initialisation Type
-- Early Initialisation
-- Lazy Initialisation
+- Early Initialisation : creation of instance at load time.
+- Lazy Initialisation : creation of instance when required.
 - Thread safe Method Initialisation
 - Thread safe block Initialisation
 
