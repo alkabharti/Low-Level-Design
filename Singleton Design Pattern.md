@@ -107,7 +107,7 @@ public class Singleton_Design_Pattern {
 	}
 	/*
 	 * Output :
-	    Singleton_Early@726f3b58
+	        Singleton_Early@726f3b58
 		Singleton_Early@726f3b58
 		
 		Singleton_Lazy@ee7d9f1
