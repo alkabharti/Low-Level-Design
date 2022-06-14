@@ -81,6 +81,11 @@ public class Factory_Design_Pattern {
 		System.out.println(bike);
 
 	}
+	/*
+	 * Output :
+	   	Wheel: 4
+		Wheel: 2
+	 */
 }
 
 ```
