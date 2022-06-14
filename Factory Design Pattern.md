@@ -17,6 +17,10 @@ The Factory Method Pattern is also known as Virtual Constructor.
 - Super class can be interface or abstract class or basic class
 - Factory class has a static method which returns the instance of sub class based on input.  
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Example
+
 
 ```java
 abstract class Vehicle {
