@@ -20,6 +20,10 @@ Singleton Pattern says that just"define a class that has only one instance and p
 - Thread safe block Initialisation
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Example
+
 
 ```java
 /*
