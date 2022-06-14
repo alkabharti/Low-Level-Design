@@ -9,6 +9,13 @@ Properties :
 - Creational Design Pattern
 - Used when we want to avaoid multiple Object creation of same instance, instead we copy the object to new object and then we can modify as per the need. 
 
+Implementation :
+
+- Object which we are copying should provide copying feature by implementing Cloneable interface.
+- We can override clone() method to implement as per our need. 
+
+
+
 
 ```java
 import java.util.*;
