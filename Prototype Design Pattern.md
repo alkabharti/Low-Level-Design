@@ -10,3 +10,71 @@ Properties :
 - Used when we want to avaoid multiple Object creation of same instance, instead we copy the object to new object and then we can modify as per the need. 
 
 
+```java
+import java.util.*;
+
+class Vehicle2 implements Cloneable {
+	private List<String> VehicleList;
+
+	public Vehicle2() {
+		this.VehicleList = new ArrayList<String>();
+	}
+
+	public Vehicle2(List<String> list) {
+		this.VehicleList = list;
+	}
+
+	public void insertData() {
+		VehicleList.add("Honda amaze");
+		VehicleList.add("Audi A4");
+		VehicleList.add("Hyundai Creta");
+		VehicleList.add("Maruti Baleno");
+		VehicleList.add("Renault Duster");
+	}
+
+	public List<String> getVehicleList() {
+		return this.VehicleList;
+	}
+
+	@Override
+	public Object clone() throws CloneNotSupportedException {
+		List<String> tempList = new ArrayList<String>();
+
+		for (String s : this.getVehicleList()) {
+			tempList.add(s);
+		}
+
+		return new Vehicle2(tempList);
+	}
+}
+
+public class Prototype_Design_Pattern {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		Vehicle2 a = new Vehicle2();
+		a.insertData();
+
+		Vehicle2 b = (Vehicle2) a.clone();
+		List<String> list = b.getVehicleList();
+		list.add("Honda new Amaze");
+
+		System.out.println(a.getVehicleList());
+		System.out.println(list);
+
+		b.getVehicleList().remove("Audi A4");
+		System.out.println(list);
+		System.out.println(a.getVehicleList());
+
+	}
+	/*
+	 * Output :
+	 * 	[Honda amaze, Audi A4, Hyundai Creta, Maruti Baleno, Renault Duster]
+		[Honda amaze, Audi A4, Hyundai Creta, Maruti Baleno, Renault Duster, Honda new Amaze]
+		[Honda amaze, Hyundai Creta, Maruti Baleno, Renault Duster, Honda new Amaze]
+		[Honda amaze, Audi A4, Hyundai Creta, Maruti Baleno, Renault Duster]
+	 * 
+	 */
+}
+
+```
