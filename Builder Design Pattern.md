@@ -19,6 +19,12 @@ Builder Pattern says that "construct a complex object from simple objects using 
 - The main class Vehicle has only getters.
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Example
+
+
+
 ```java
 class Vehicle1 {
 	// required parameter
