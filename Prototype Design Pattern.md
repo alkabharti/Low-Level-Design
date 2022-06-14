@@ -4,16 +4,20 @@ Prototype Pattern says that cloning of an existing object instead of creating ne
 
 This pattern should be followed, if the cost of creating a new object is expensive and resource intensive.
 
-Properties :
+#### Properties :
 
 - Creational Design Pattern
 - Used when we want to avaoid multiple Object creation of same instance, instead we copy the object to new object and then we can modify as per the need. 
 
-Implementation :
+#### Implementation :
 
 - Object which we are copying should provide copying feature by implementing Cloneable interface.
 - We can override clone() method to implement as per our need. 
 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Example
 
 
 
