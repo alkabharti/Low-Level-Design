@@ -5,7 +5,7 @@ Builder Pattern says that "construct a complex object from simple objects using 
 #### Properties :
 
 - Creational Design Pattern
-- Used when we have too many arguments to send in COnstructor and it's hard to maintain the order.
+- Used when we have too many arguments to send in Constructor and it's hard to maintain the order.
 - When we don't want to send all parameters in Object initialisation (Generally we send optional parameters as Null). 
 
 #### Implementation :
