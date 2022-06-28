@@ -1,4 +1,4 @@
-Dependency Inversion Principle :
+## Dependency Inversion Principle :
 
 The principle states that we must use abstraction (abstract classes and interfaces) instead of concrete implementations.
 
