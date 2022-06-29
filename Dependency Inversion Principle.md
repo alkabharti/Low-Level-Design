@@ -3,6 +3,8 @@
 The principle states that we must use abstraction (abstract classes and interfaces) instead of concrete implementations.
 
 
+#### ShoppingMall.class
+
 ```java
 public class ShoppingMall {
 
@@ -28,6 +30,9 @@ public class ShoppingMall {
 ```
 
 
+#### DebitCard Class :
+
+
 ```java
 public class DebitCard implements BankCard{
 
@@ -37,6 +42,9 @@ public class DebitCard implements BankCard{
 }
 ```
 
+#### CreditCard Class :
+
+
 ```java
 public class CreditCard implements BankCard{
 
@@ -45,6 +53,8 @@ public class CreditCard implements BankCard{
     }
 }
 ```
+
+#### Interface BankCard :
 
 
 ```java
