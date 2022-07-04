@@ -1,6 +1,6 @@
-Decorator Design Pattern :
+## Decorator Design Pattern :
 
-Properties :
+#### Properties :
 
 - Structural Design Pattern
 - Used when we want to modify functionality of an Object at runtime and it should not change individual Object functionality.
@@ -9,7 +9,7 @@ Properties :
 ![image](https://user-images.githubusercontent.com/23376002/177186357-d9c162ed-abc1-4d0d-8424-81b7ca014320.png)
 
 
-Example :
+### Example :
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -103,7 +103,7 @@ public class Decorator_Design_Pattern {
 
 ```
 
-Output :
+### Output :
 
 ![image](https://user-images.githubusercontent.com/23376002/177187421-2a17e230-8050-4a8c-b55c-39eefac92874.png)
 
